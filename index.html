@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <title>Interactive Navigation Menu</title>
     <style>
         body {
@@ -29,13 +30,13 @@
         }
 
         .navbar ul li {
-            margin: 0 55px;
+            margin: 0 15px;
         }
 
         .navbar ul li a {
             color: rgb(0, 0, 0);
             text-decoration: none;
-            padding: 15px 25px; /* Adjusted padding for better spacing */
+            padding: 0px 5px; /* Adjusted padding for better spacing */
             transition: color 0.3s;
             display: flex;
             align-items: center; /* Aligns text and icon vertically */
@@ -58,12 +59,6 @@
             margin-top: 50px;
         }
 
-        .nav-icon {
-            width: 25px;  /* Set fixed size for icons */
-            height: 25px;
-            margin-right: 8px;
-        }
-
         #home {
             background-color: #5bf508;
         }
@@ -84,10 +79,10 @@
 <body>
     <nav class="navbar">
         <ul>
-            <li><a href="#home"><img src="C:\Users\rajan\Downloads\png-clipart-metrostation-black-home-icon-thumbnail-removebg-preview.png" alt="home icon" class="nav-icon"> Home</a></li>
-            <li><a href="#about"><img src="C:\Users\rajan\Downloads\png-transparent-retail-shop-fitting-metal-about-us-icon-cdr-retail-eps-thumbnail-removebg-preview.png" alt="about icon" class="nav-icon">About</a></li>
-            <li><a href="#services"><img src="C:\Users\rajan\Downloads\png-clipart-computer-icons-service-icon-service-desktop-wallpaper-removebg-preview.png" alt="home icon" class="nav-icon">Services</a></li>
-            <li><a href="#contact"><img src="C:\Users\rajan\Downloads\pngtree-phone-icon-in-solid-circle-png-image_2380227-removebg-preview.png" alt="home icon" class="nav-icon">Contact</a></li>
+            <i class="fa fa-house"></i></i><li><a href="#home">Home</a></li> 
+            <i class="fa fa-address-card"></i></i><li><a href="#about">About</a></li>
+            <i class="fa fa-gears"></i></i><li><a href="#services">Services</a></li>
+            <i class="fa fa-address-book"></i></i><li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -103,7 +98,5 @@
     <section id="contact">
         <h1>Contact Us</h1>
     </section>
-
-    <script src="script.js"></script>
 </body>
 </html>
