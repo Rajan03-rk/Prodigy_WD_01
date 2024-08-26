@@ -45,4 +45,4 @@ This project demonstrates a simple and interactive navigation menu using HTML, C
 - The provided JavaScript file (`script.js`) is not yet implemented, so the navbar interaction might not work until the JavaScript logic is added.
 
 ## Deployment 
-link : 
+link :  https://rajan03-rk.github.io/Prodigy_WD_01/
