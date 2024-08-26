@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #ffffff;
+            transition: background-color 0.3s;
+            z-index: 1000;
+            padding: 10px 0;  /* Corrected missing colon */
+        }
+
+        .navbar ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar ul li {
+            margin: 0 55px;
+        }
+
+        .navbar ul li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 15px 25px; /* Adjusted padding for better spacing */
+            transition: color 0.3s;
+            display: flex;
+            align-items: center; /* Aligns text and icon vertically */
+        }
+
+        .navbar ul li a:hover {
+            color: #ff9800;
+        }
+
+        .navbar.scrolled {
+            background-color: #555;
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding:0;
+            margin-top: 50px;
+        }
+
+        .nav-icon {
+            width: 25px;  /* Set fixed size for icons */
+            height: 25px;
+            margin-right: 8px;
+        }
+
+        #home {
+            background-color: #5bf508;
+        }
+
+        #about {
+            background-color: #fe0909;
+        }
+
+        #services {
+            background-color: #0b07f1;
+        }
+
+        #contact {
+            background-color: #ea099f;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home"><img src="C:\Users\rajan\Downloads\png-clipart-metrostation-black-home-icon-thumbnail-removebg-preview.png" alt="home icon" class="nav-icon"> Home</a></li>
+            <li><a href="#about"><img src="C:\Users\rajan\Downloads\png-transparent-retail-shop-fitting-metal-about-us-icon-cdr-retail-eps-thumbnail-removebg-preview.png" alt="about icon" class="nav-icon">About</a></li>
+            <li><a href="#services"><img src="C:\Users\rajan\Downloads\png-clipart-computer-icons-service-icon-service-desktop-wallpaper-removebg-preview.png" alt="home icon" class="nav-icon">Services</a></li>
+            <li><a href="#contact"><img src="C:\Users\rajan\Downloads\pngtree-phone-icon-in-solid-circle-png-image_2380227-removebg-preview.png" alt="home icon" class="nav-icon">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>Welcome to Home</h1>
+    </section>
+    <section id="about">
+        <h1>About Us</h1>
+    </section>
+    <section id="services">
+        <h1>Our Services</h1>
+    </section>
+    <section id="contact">
+        <h1>Contact Us</h1>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
